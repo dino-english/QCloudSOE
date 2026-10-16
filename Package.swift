@@ -3,7 +3,7 @@ import PackageDescription
 
 // 腾讯云智聆口语评测 SDK (QCloudSOE) 的 SwiftPM 封装。
 // 由对应的 CocoaPods 配置翻译而来，版本与 Pod 严格一致：
-//   - QCloudSOE   2.0.10  (static framework, 依赖 VoiceCommon, 链接 libc++)
+//   - QCloudSOE   2.0.11  (static framework, 依赖 VoiceCommon, 链接 libc++)
 //   - VoiceCommon 1.0.5   (static framework, 链接 libc++)
 let package = Package(
     name: "QCloudSOE",

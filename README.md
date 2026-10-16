@@ -4,10 +4,10 @@
 
 | 组件 | 版本 | 说明 |
 |---|---|---|
-| QCloudSOE | **2.0.10** | 口语评测主库（静态 xcframework，依赖 VoiceCommon） |
+| QCloudSOE | **2.0.11** | 口语评测主库（静态 xcframework，依赖 VoiceCommon） |
 | VoiceCommon | **1.0.5** | 腾讯云语音基础库（静态 xcframework） |
 
-> 版本与原 Podfile 一致：`QCloudSOE 2.0.10` + `VoiceCommon 1.0.5`。
+> 版本与原 Podfile 一致：`QCloudSOE 2.0.11` + `VoiceCommon 1.0.5`。
 > 二者均链接 `libc++`（已在包内通过支撑 target 自动处理，无需手动配置）。
 
 ## 平台与架构
@@ -41,10 +41,10 @@ Xcode 工程则用 `File > Add Package Dependencies… > Add Local…` 选择本
 
 ### 方式二：发到 Git 仓库后远程引用
 
-把本目录推到 Git 并打 tag（建议 `2.0.10` 对齐主库版本）：
+把本目录推到 Git 并打 tag（建议 `2.0.11` 对齐主库版本）：
 
 ```swift
-.package(url: "<your-git-url>/QCloudSOE.git", exact: "2.0.10")
+.package(url: "<your-git-url>/QCloudSOE.git", exact: "2.0.11")
 ```
 
 ## 使用
@@ -70,7 +70,7 @@ Objective-C：
 QCloudSOE/
 ├── Package.swift
 ├── Frameworks/
-│   ├── QCloudSOE.xcframework      # 2.0.10
+│   ├── QCloudSOE.xcframework      # 2.0.11
 │   └── VoiceCommon.xcframework    # 1.0.5
 └── Sources/
     └── QCloudSOECxxSupport/       # 仅用于链接 libc++，无业务代码

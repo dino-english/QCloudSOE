@@ -8,7 +8,7 @@
 #ifndef Version_h
 #define Version_h
 
-#define SDK_VERSION @"v2.0.10"
-#define BUILD_VERSION @"fd61eb2"
+#define SDK_VERSION @"v2.0.11"
+#define BUILD_VERSION @"d63d3ab"
 
 #endif /* Version_h */
